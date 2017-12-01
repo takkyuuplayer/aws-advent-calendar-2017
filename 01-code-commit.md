@@ -7,7 +7,7 @@ This is 1st entry of my advent calendar in 2017.
 It is not good idea to save sensitive information on GitHub even in a private repository. They can be seen not only developers but also all members who can access to the repository. GitHub forbid us to push such information to remote.
 
 > Warning: Never git add, commit, or push sensitive information to a remote repository.
-
+>
 > https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 
 Where should we save those data? I usually use local git's bare repository but CodeCommit might be an another option.
