@@ -10,18 +10,18 @@ It is not good idea to save sensitive information on GitHub even in a private re
 >
 > https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 
-Where should we save those data? I usually use local git's bare repository but CodeCommit might be an another option.
+Where should we save those data? I usually use git's bare repository in local but CodeCommit might be an another option.
 
 ## Let's use it
 
-Let's create a repository for sensitive information first.
-I made a repository named `DemoSensitive` from `Get Started` link on [AWS CodeCommit Management Console](https://ap-northeast-1.console.aws.amazon.com/codecommit/home?region=ap-northeast-1#/introduction). When I created the repository, I was redirected to a page to configure email notification.
+Let's create a repository for sensitive information.
+I made a repository named `DemoSensitive` from `Get Started` link on [AWS CodeCommit Management Console](https://ap-northeast-1.console.aws.amazon.com/codecommit/home?region=ap-northeast-1#/introduction).
 
-Whenever we access to AWS services, best practice is using IAM user with limited permissions. I created a new account `codecommit-rw` for the purpose by following
+Whenever we access to AWS services, best practice is using IAM user with limited permissions. I created a new account `codecommit-rw` to `git clone` the repository by following
 
 > [Setup Steps for SSH Connections to AWS CodeCommit Repositories on Linux, macOS, or Unix \- AWS CodeCommit](http://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-ssh-unixes.html)
 
-Now ready to `git clone` the repository. I add, commit and push dummy sensitive data. I added it as `submodules/DemoSensitive` in this advent calendar repository.
+Now ready to clone the repository. I git add, commit and push dummy sensitive data. It is accessible as `submodules/DemoSensitive` in this advent calendar repository. (Of course you cannot see it but it is accessible in local).
 
 ## Consideration
 
@@ -45,7 +45,11 @@ As long as we do team development, we need somewhere to share sensitive informat
 * Only limited people can access
 * From specific location
 
-which seem to be accomplished by CodeCommit with IAM user.
+which is accomplished by CodeCommit with IAM user.
+
+## Conclusion
+
+LGTM to store sensitive information in CodeCommit.
 
 ## Prior Notice
 
