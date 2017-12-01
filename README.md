@@ -5,7 +5,7 @@
 * http://takkyuuplayer.hatenablog.com/entry/2014/12/02/010000
 * http://takkyuuplayer.hatenablog.com/entry/2016/12/01/200732
 
-I considered the reason. It should be because I did not prepared any agenda. This year, I prepared agenda first.
+I considered the reason. It should be because I did not prepare any agenda. This year, I prepared agenda first.
 I'm going to try AWS products every day. Hope I can go through until December 24.
 
 # Index
