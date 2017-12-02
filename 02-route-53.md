@@ -84,7 +84,7 @@ After deleting `blog.takkyuuplayer.com`, my homepage started to return 500 error
 
 > [Fix blogger url by takkyuuplayer · Pull Request \#4 · takkyuuplayer/homepage](https://github.com/takkyuuplayer/homepage/pull/4/files#diff-0a400c8217d53ff4f978163d7c61868cL14)
 
-It is very bad behavior that my website depends on availability of external websites.
+It is bad behavior that my website depends on availability of external websites. Let's fix it later.
 
 ## Consideration
 
