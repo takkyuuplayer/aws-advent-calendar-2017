@@ -54,3 +54,7 @@ LGTM to store sensitive information in CodeCommit.
 ## Prior Notice
 
 Tomorrow, I'll try Route53.
+
+## P.S.
+
+I'm accepting comments on https://github.com/takkyuuplayer/aws-advent-calendar-2017/pull/1
