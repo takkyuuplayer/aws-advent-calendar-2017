@@ -10,9 +10,8 @@ I'm going to try AWS products every day. Hope I can go through until December 24
 
 # Index
 
-1. [CodeCommit](https://github.com/takkyuuplayer/aws-advent-calendar-2017/blob/master/01-code-commit.md)
-1. [Route53](https://github.com/takkyuuplayer/aws-advent-calendar-2017/blob/master/02-route-53.md)
-1. Route53
+1. [CodeCommit](01-code-commit.md)
+1. [Route53](02-route-53.md)
 1. Simple Storage Service
 1. CloudFront
 1. CloudFormation
