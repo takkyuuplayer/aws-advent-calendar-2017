@@ -86,10 +86,24 @@ After deleting `blog.takkyuuplayer.com`, my homepage started to return 500 error
 
 It is very bad behavior that my website depends on availability of external websites.
 
+## Consideration
+
+### What is the benefits to migrate name server to Route 53?
+
+Route 53 has more capability to configure DNS records than ムームードメイン, such as TTL.
+However, to configure such values, Route 53 is not necessary.
+
+I do not reveal any big benefits so far.
+Maybe it is visible when I connect DNS records to other AWS products like S3.
+
 ## Conclusion
 
-LGTM to use Route 53.
+Route 53 is easy to use but it's not necessary as long as we do not use other AWS products.
 
 ## Prior Notice
 
 Tomorrow entry is S3.
+
+## P.S.
+
+Leave comments on https://github.com/takkyuuplayer/aws-advent-calendar-2017/pull/3
