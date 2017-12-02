@@ -8,42 +8,42 @@ Let's migrate DNS records registered on [ムームードメイン](https://muumu
 
 1. `MX` records for [G Suite](https://gsuite.google.com/)
 
-  ```
-  $ dig takkyuuplayer.com any
+    ```
+    $ dig takkyuuplayer.com any
 
-  ;; ANSWER SECTION:
-  takkyuuplayer.com.      3578    IN      NS      dns01.muumuu-domain.com.
-  takkyuuplayer.com.      3578    IN      SOA     takkyuuplayer.com. postmaster.takkyuuplayer.com. 1512155811 3600 1800 604800 3600
-  takkyuuplayer.com.      3100    IN      MX      30 aspmx5.googlemail.com.
-  takkyuuplayer.com.      3100    IN      MX      30 aspmx4.googlemail.com.
-  takkyuuplayer.com.      3100    IN      MX      30 aspmx3.googlemail.com.
-  takkyuuplayer.com.      3100    IN      MX      20 alt2.aspmx.l.google.com.
-  takkyuuplayer.com.      3100    IN      MX      20 alt1.aspmx.l.google.com.
-  takkyuuplayer.com.      3100    IN      MX      30 aspmx2.googlemail.com.
-  takkyuuplayer.com.      3100    IN      MX      10 aspmx.l.google.com.
+    ;; ANSWER SECTION:
+    takkyuuplayer.com.      3578    IN      NS      dns01.muumuu-domain.com.
+    takkyuuplayer.com.      3578    IN      SOA     takkyuuplayer.com. postmaster.takkyuuplayer.com. 1512155811 3600 1800 604800 3600
+    takkyuuplayer.com.      3100    IN      MX      30 aspmx5.googlemail.com.
+    takkyuuplayer.com.      3100    IN      MX      30 aspmx4.googlemail.com.
+    takkyuuplayer.com.      3100    IN      MX      30 aspmx3.googlemail.com.
+    takkyuuplayer.com.      3100    IN      MX      20 alt2.aspmx.l.google.com.
+    takkyuuplayer.com.      3100    IN      MX      20 alt1.aspmx.l.google.com.
+    takkyuuplayer.com.      3100    IN      MX      30 aspmx2.googlemail.com.
+    takkyuuplayer.com.      3100    IN      MX      10 aspmx.l.google.com.
 
-  ;; ADDITIONAL SECTION:
-  aspmx.l.google.com.     271     IN      A       173.194.68.27
-  ```
+    ;; ADDITIONAL SECTION:
+    aspmx.l.google.com.     271     IN      A       173.194.68.27
+    ```
 
 1. `CNAME` record for blog.takkyuuplayer.com
 
-  ```
-  -> $ dig blog.takkyuuplayer.com any
+    ```
+    -> $ dig blog.takkyuuplayer.com any
 
-  ;; ANSWER SECTION:
-  blog.takkyuuplayer.com. 3599    IN      CNAME   ghs.google.com.
+    ;; ANSWER SECTION:
+    blog.takkyuuplayer.com. 3599    IN      CNAME   ghs.google.com.
 
-  ```
+    ```
 
 1. `A` record for www.takkyuuplayer.com
 
-  ```
-  -> $ dig www.takkyuuplayer.com any
+    ```
+    -> $ dig www.takkyuuplayer.com any
 
-  ;; ANSWER SECTION:
-  www.takkyuuplayer.com.  3599    IN      A       153.126.171.12
-  ```
+    ;; ANSWER SECTION:
+    www.takkyuuplayer.com.  3599    IN      A       153.126.171.12
+    ```
 
 ## Let's use it
 
