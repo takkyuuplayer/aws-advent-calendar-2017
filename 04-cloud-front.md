@@ -23,7 +23,7 @@ Let's create a new distribution from [AWS CloudFront Management Console](https:/
 1. Route 53 Settings
     * I replaced Alias that I configured yesterday with cloudfront.
 
-Done. https://www.takkyuuplayer.com/
+Done. https://takkyuuplayer.com/
 
 ## Consideration
 
