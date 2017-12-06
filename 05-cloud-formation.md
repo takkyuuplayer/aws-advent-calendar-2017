@@ -13,7 +13,7 @@ Let's create a S3 bucket `test.takkyuuplayer.com` with the same setting as `takk
 
 ### Set up command line environment
 
-I made an IAM user having programatic Full access for CloudFormation.
+I made an IAM user having programatic Full access to CloudFormation.
 
 ```
 -> $ brew install awscli
@@ -136,7 +136,7 @@ Server: AmazonS3
 
 For syntax, I prefer Terraform syntax than CloudFormation but I decided to use CloudFormation as it is official tool from Amazon. For the difference,
 
-[CloudFormation vs\. Terraform \| cloudonaut](https://cloudonaut.io/cloudformation-vs-terraform/)
+> [CloudFormation vs\. Terraform \| cloudonaut](https://cloudonaut.io/cloudformation-vs-terraform/)
 
 is well explained. The web page says CloudFormation cannot handle existing resource but [CloudFormer](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-using-cloudformer.html) is available for the purpose now.
 
@@ -144,4 +144,9 @@ is well explained. The web page says CloudFormation cannot handle existing resou
 
 Compared to other AWS produces I have used in this advent calendar, starting CloudFormation took more time. GUI is intuitive and it's good for beginning stage.
 
-For rest of products, checking GUI on management console to know what I can do, and manipulating the feature via CloudFormation is a good way to continue.
+It'll be nice to manipulate remaining products via CloudFormation with checking GUI on management console.
+
+## P.S.
+
+Leave any comment on
+https://github.com/takkyuuplayer/aws-advent-calendar-2017/pull/7
