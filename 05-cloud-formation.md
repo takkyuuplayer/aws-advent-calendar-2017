@@ -1,4 +1,4 @@
-# [Amazon CloudFront](https://aws.amazon.com/cloudfront/?nc1=h_ls)
+# [AWS CloudFormation](https://aws.amazon.com/cloudformation/?nc1=h_ls)
 
 This is 5th entry of my advent calendar in 2017.
 
