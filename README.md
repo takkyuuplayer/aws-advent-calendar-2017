@@ -14,7 +14,7 @@ I'm going to try AWS products every day. Hope I can go through until December 24
 1. [Route53](02-route-53.md)
 1. [Simple Storage Service](03-s3.md)
 1. [CloudFront](04-cloud-front.md)
-1. CloudFormation
+1. [CloudFormation](05-cloud-formation.md)
 1. Poem 1
 1. Simple Email Service
 1. Simple Queue Service
